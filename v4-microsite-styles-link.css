@@ -1,0 +1,445 @@
+/* ----- // START // ------ */
+
+#footer .sw-background-color-ffffff {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+.button-link {
+  font-family: var(--font2-pages);
+  font-weight: 700 !important;
+  background-color: transparent;
+  border-radius: 100px;
+  color: var(--color-black-pages) !important;
+  padding: 10px 30px;
+  margin-top: 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px !important;
+}
+
+.button-link:hover {
+  color: var(--color1-pages) !important;
+}
+
+.footer-p {
+  font-family: var(--font2-pages) !important;
+  font-weight: 700 !important;
+  color: var(--color-black-pages) !important;
+  padding-top: 30px;
+  margin-top: 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px !important;
+}
+
+.footer-a {
+  font-family: var(--font2-pages) !important;
+  font-weight: 700 !important;
+  color: var(--color-black-pages) !important;
+  padding-top: 30px;
+  margin-top: 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px !important; 
+}
+
+.footer-a:hover {
+  color: var(--color1-pages) !important;
+  font-family: var(--font2-pages) !important;
+  font-weight: 700 !important;
+  padding-top: 30px;
+  margin-top: 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px !important;
+}
+
+.fixed-widget-lower-right-video {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 160px;
+    height: 160px;
+    box-shadow: 0px 10px 48px 8px rgb(0 0 0 / 5%), 0px 4px 12px 0px rgb(0 0 0 / 5%);
+    z-index: 3 !important;
+}
+
+/* (start) circle nav */
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.circles-nav-fixed-div::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.circles-nav-fixed-div {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.circles-nav-fixed-div {
+    height: 100%;
+    width: 80px;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    right: 0;
+    background-color: transparent;
+    overflow-x: hidden;
+    padding-top: 15px;
+    padding-left: 10px !important;
+    padding-right: 10px;
+}
+
+.circles-nav-fixed-div a {
+    display: block;
+}
+
+.circles-nav-fixed-circle {
+    background-color: var(--color1-pages) !important;
+    border-radius: 50%;
+    padding: 18px;
+    height: 60px;
+    width: 60px;
+    color: var(--color-black-pages) !important;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    z-index: 3 !important;
+    margin-bottom: 5px !important;
+}
+
+.circles-nav-fixed-icon {
+    font-size: 24px !important;
+    color: var(--color-black-pages) !important;
+    line-height: normal !important;
+    vertical-align: middle !important; 
+    text-align: center !important;
+    display: inline-block !important;
+}
+
+.circles-nav-fixed-icon:hover {
+  color: #ffffff !important;
+}
+
+.circles-nav-fixed-icon:hover a {
+  color:  #1f1f1f !important;
+}
+
+/* (end) circle nav */
+
+/* (start) */
+
+.map-content  {
+  height: 600px !important;
+}
+
+/* (end) */
+
+/* (start) dynamic block styles in SOFTR from AIRTABLE [fx] fields */
+
+#details {
+  box-shadow: 0px 10px 48px 8px rgb(0 0 0 / 5%), 0px 4px 12px 0px rgb(0 0 0 / 5%);
+  background-color: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 20px;
+  margin-top: 45px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#residences {
+  box-shadow: 0px 10px 48px 8px rgb(0 0 0 / 5%), 0px 4px 12px 0px rgb(0 0 0 / 5%);
+  background-color: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#images {
+  box-shadow: 0px 10px 48px 8px rgb(0 0 0 / 5%), 0px 4px 12px 0px rgb(0 0 0 / 5%);
+  background-color: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#video {
+  box-shadow: 0px 10px 48px 8px rgb(0 0 0 / 5%), 0px 4px 12px 0px rgb(0 0 0 / 5%);
+  background-color: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#map {
+  box-shadow: 0px 10px 48px 8px rgb(0 0 0 / 5%), 0px 4px 12px 0px rgb(0 0 0 / 5%);
+  background-color: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#team {
+  box-shadow: 0px 10px 48px 8px rgb(0 0 0 / 5%), 0px 4px 12px 0px rgb(0 0 0 / 5%);
+  background-color: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#calendar {
+  box-shadow: 0px 10px 48px 8px rgb(0 0 0 / 5%), 0px 4px 12px 0px rgb(0 0 0 / 5%);
+  background-color: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#integration1 {
+  box-shadow: 0px 10px 48px 8px rgb(0 0 0 / 5%), 0px 4px 12px 0px rgb(0 0 0 / 5%);
+  background-color: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#integration2 {
+  box-shadow: 0px 10px 48px 8px rgb(0 0 0 / 5%), 0px 4px 12px 0px rgb(0 0 0 / 5%);
+  background-color: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#integration3 {
+  box-shadow: 0px 10px 48px 8px rgb(0 0 0 / 5%), 0px 4px 12px 0px rgb(0 0 0 / 5%);
+  background-color: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#ai {
+  box-shadow: 0px 10px 48px 8px rgb(0 0 0 / 5%), 0px 4px 12px 0px rgb(0 0 0 / 5%);
+  background-color: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+/* (end) dynamic block styles in SOFTR from AIRTABLE [fx] fields */
+
+
+.static-image {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px !important;
+}
+
+.horizontal-list-item  {
+
+}
+
+.list-item-wrapper {
+	
+}
+
+.list-item-wrapper:hover {
+
+}
+
+.list-container .static-image {
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px !important;
+	margin: 10px !important;
+	border-radius: 10px !important;
+}
+
+.sw-modal-size-md {
+	border-radius: 20px !important;
+	box-shadow: 0px 10px 48px 8px rgb(0 0 0 / 5%), 0px 4px 12px 0px rgb(0 0 0 / 5%) !important;
+}
+
+.sw-modal-overlay {
+	background: rgba(255, 255, 255, 0.5) !important;
+}
+
+.MuiBackdrop-root {
+	background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.MuiButton-root {
+	box-shadow: 0px 10px 48px 8px rgb(0 0 0 / 5%), 0px 4px 12px 0px rgb(0 0 0 / 5%) !important;
+	cursor: default !important;
+}
+
+.MuiChip-root {
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.MuiButtonBase-root {
+	
+}
+
+.MuiBox-root {
+	margin-bottom: 0px !important;
+}
+
+.sw-js-checkout-btn {
+	font-family: 'Comfortaa', sans-serif !important;
+}
+
+.powered-by {
+	font-family: 'Comfortaa', sans-serif !important;
+}
+
+#toast-container {
+    display: none !important;
+}
+
+.toast-title {
+	font-family: 'Comfortaa', sans-serif !important;
+	text-transform: uppercase !important;
+}
+
+.toast-message {
+	font-family: 'Comfortaa', sans-serif !important;
+	text-transform: lowercase !important;
+}
+
+.toast-error {
+	background-color: var(--color1) !important;
+}
+
+.toast-close-button {
+	visibility: hidden;
+} 
+
+.form-error-text {
+	font-family: 'Comfortaa', sans-serif !important;
+	text-transform: uppercase !important;
+	color: #1f1f1f !important;
+}
+
+.fa-exclamation-triangle:before {
+	content: none !important;
+}
+
+.sw-modal-container {
+	padding-top: 20px !important;
+}
+
+.actions-dropdown .dropdown-btn {
+  box-shadow: 0px 10px 48px 8px rgb(0 0 0 / 5%), 0px 4px 12px 0px rgb(0 0 0 / 5%) !important;
+  border: 0px !important;
+  border-radius: 30px !important;
+}
+
+.actions-dropdown .dropdown-btn:hover {
+  box-shadow: 0px 10px 48px 8px rgb(0 0 0 / 5%), 0px 4px 12px 0px rgb(0 0 0 / 5%) !important;
+  border: 0px !important;
+  border-radius: 30px !important;
+}
+
+#dot-button {
+  box-shadow: 0px 10px 48px 8px rgb(0 0 0 / 5%), 0px 4px 12px 0px rgb(0 0 0 / 5%) !important;
+  border: 0px !important;
+  border-radius: 30px !important;
+}
+
+#dot-button:hover {
+  box-shadow: 0px 10px 48px 8px rgb(0 0 0 / 5%), 0px 4px 12px 0px rgb(0 0 0 / 5%) !important;
+  border: 0px !important;
+  border-radius: 30px !important;
+}
+
+.MuiDialogContent-root {
+  font-family: 'Comfortaa', sans-serif !important;
+  text-transform: lowercase !important;
+}
+
+.form-input-label {
+    visibility: hidden !important;
+    display: none !important;
+}
+
+input {
+  padding-left: 20px !important;
+}
+
+button:hover {
+  cursor: default !important; 
+}
+
+/* ----- // END // ------ */
